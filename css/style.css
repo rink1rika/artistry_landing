@@ -1,0 +1,10 @@
+html {
+    width: 1296px;
+}
+
+.header_ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
