@@ -5,7 +5,16 @@ html {
     box-sizing: border-box;
 }
 
+.logo {
+    margin-top: 22px;
+}
+
+.top_menu {
+    margin-top: 70.5px;
+}
+
 .header_ul {
+    margin-left: 100px;
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
