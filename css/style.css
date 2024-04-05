@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+/* Begint Reset*/
 html {
     width: 1920px;
     margin: 0;
@@ -9,23 +10,28 @@ html {
 img {
     display: block;
 }
+/*End Reset*/
 
-.logo {
-    margin-top: 22px;
-}
 
-.top_menu {
-    margin-top: 70.5px;
-}
 
+/*Utility Classes*/
 .header_ul {
     margin-left: 353px;
     list-style-type: none;
     display: flex;
-    /*justify-content: space-evenly;*/
     gap: 55px;
     font-size: 24px;
 }
+
+.header_ul li
+{
+    margin-top: 70.5px;
+}
+
+.header_ul img {
+    margin-top: 22px;
+}
+
 
 .mountine {
     margin-top: 128px;
