@@ -21,6 +21,7 @@ body {
 /*Utility Classes*/
 .header_ul {
     margin-left: 353px;
+    margin-top: 0;
     list-style-type: none;
     display: flex;
     gap: 55px;
@@ -56,7 +57,7 @@ body {
 }
 
 .mountine h2 {
-    font-size: 40px;
+    font-size: 64px;
     font-weight: 800;
 }
 
