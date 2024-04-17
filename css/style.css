@@ -40,9 +40,13 @@ body {
     transition: color 0.4s ease;
 }
 
-.header_ul li:hover {
+.header_ul div:hover{
     color: #2967AF;
 }
+
+/* .header_ul li:hover {
+    color: #2967AF;
+} */
 
 .header_ul .first_gap {
     margin-left: 159.03px;
@@ -58,11 +62,11 @@ body {
     opacity: 0;
 }
 
-.header_ul:hover .logo_default {
+.header_ul .logo_default:hover {
     opacity: 0;
 }
 
-.header_ul:hover .logo_hover {
+.header_ul .logo_hover:hover {
     opacity: 1;
 }
 
