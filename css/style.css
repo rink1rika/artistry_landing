@@ -29,12 +29,19 @@ body {
     padding: 0;
 }
 
+/*TODO: FIX ANIMATION CONNECTION BETWEEN TEXT AND LOGO*/
+
 .header_ul li
 {
     margin-top: 70.5px;
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
+    transition: color 0.4s ease;
+}
+
+.header_ul li:hover {
+    color: #2967AF;
 }
 
 .header_ul .first_gap {
@@ -59,9 +66,9 @@ body {
     opacity: 1;
 }
 
-.header_ul li div
+.header_ul .log_in_offset
 {
-   padding-left: 255px;
+    padding-left: 255px;
 }
 
 .mountine {
