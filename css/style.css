@@ -21,6 +21,7 @@ body {
 /*Utility Classes*/
 .header_ul {
     margin-left: 353px;
+    margin-bottom: 85.5px;
     margin-top: 0;
     list-style-type: none;
     display: flex;
@@ -77,8 +78,74 @@ body {
     padding-left: 255px;
 }
 
+
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 21px;
+    border-radius: 42px;
+    width: 750px;
+    height: 18px;
+    background: #DEF0F8;
+    transition: all 0.3 ease-in-out;
+}
+
+.search:hover {
+    background: #B0B0B099;
+}
+
+.search:focus-within {
+    background: #B0B0B099;
+}
+
+.search_input {
+    font-size: 39px;
+    color: #333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.search_icon {
+    display: inline-block;
+    position: relative;
+}
+
+.search_icon_overlay {
+    position: relative;
+    top: 3px;
+    left: -35px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.search:hover .search_icon_overlay {
+    opacity: 1;
+}
+
+.search:focus-within .search_icon_overlay{
+    opacity: 1;
+}
+
+.search_ul{
+    margin-left: 512px;
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 49px;
+    padding: 0;
+}
+
+.search_ul p{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
 .mountine {
-    margin-top: 128px;
+    margin-top: 62px;
     font-family: "Inter", sans-serif;
     background-image: url('../assets/background/mountines_bg.png');
     background-repeat: no-repeat;
